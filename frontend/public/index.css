@@ -19,9 +19,6 @@
         
     }
 
-    .aside {
-        display: none;
-    }
 }
 
 
@@ -37,6 +34,11 @@ body {
 
 span {
     color: white;
+}
+
+img {
+    width: 200px;
+    height: auto;
 }
 
 input[type="text"] {
