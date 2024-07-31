@@ -16,9 +16,13 @@ getTodos.use(express.static(path.join(__dirname, 'public')));;
     .catch(error => console.error(error));
 }
 
-// ============================================================== //
-
 
 getTodos.listen(5500, () => {
     console.log(`http://localhost:5500`);
   });
+
+  commentInput.addEventListener('keyup', (event) => {
+    if (event.key === 'Enter') {
+        addComment();
+    }
+});
