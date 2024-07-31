@@ -1,0 +1,54 @@
+@media (max-width: 540px) {
+    
+    .header {
+        height: 50px;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 540px) and (max-width: 960px){
+    
+    .header {
+        height: 150px;
+        flex-direction: column;
+    }
+
+    .summit {
+        flex-direction: column;
+        
+    }
+
+    .aside {
+        display: none;
+    }
+}
+
+
+body {
+    background-color: rgb(211, 248, 229);
+}
+
+#comtainer {
+    background-color: yellowgreen;
+    display: flex;
+    align-content: center;
+}
+
+span {
+    color: white;
+}
+
+input[type="text"] {
+    border: solid 1px green;
+    border-radius: 20px;
+    width: 60%;
+    box-sizing: border-box;
+    background-color: transparent;
+
+}
+
+input[type="checkbox"]:hover {
+    text-decoration-line: line-through;
+
+}
